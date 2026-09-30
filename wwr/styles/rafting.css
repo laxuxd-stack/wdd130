@@ -88,4 +88,50 @@ section {
 footer {
     background-color: var(--accent2-color);
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.history-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.history-content img {
+  width: 250px;
+  height: auto;
+}
+
+.adventure-gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.adventure-gallery figure {
+  margin: 0;
+  text-align: center;
+}
+
+.adventure-gallery img {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 15px;
 }
