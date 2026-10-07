@@ -96,11 +96,20 @@ header {
   display: grid;
   grid-template-columns: 150px auto;
   align-items: center;
+  background-color: var(--accent2-color);
 }
 
 nav {
   display: flex;
   justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none; 
+    color: var(--accent1-color);
+    background-color: #e0e0e0; 
+    padding: 10px 20px; 
+    border: 1px solid #777;
 }
 
 .history-content {
@@ -135,3 +144,75 @@ nav {
   display: flex;
   gap: 15px;
 }
+
+/* contact.css */
+
+
+.contact-info p {
+    margin: 0; 
+    padding: 3px 0;
+}
+
+.contact-info {
+    text-align: center; 
+    margin-bottom: 2rem; 
+}
+
+.contact-info address {
+    font-style: normal;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    max-width: 1000px; 
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.contact-layout iframe {
+    width: 100%;
+    border: 0;
+}
+
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    display: block;
+    cursor: pointer;
+}
+ 
+.employees {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.employee-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+.employee-grid figure {
+    margin: 10px; 
+}
+
+
+.employee-grid img {
+    width: 150px;       
+    height: 150px;      
+    object-fit: cover;  
+    border-radius: 8px;
+}
+
+#fullname, #email, #message {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    display: block; 
+}
+
